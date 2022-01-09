@@ -1,1 +1,1 @@
-# data-structures-algorithms
+# algo-daily
