@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  width: 75%;
+  margin: auto;
+}
+:root {
+  --primary-color: #991b1b;
+}
+body {
+  background-color: #efefef;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+}
+
+button:hover {
+  color: var(--primary-color);
+}
+
+button {
+  margin: 2rem 0rem 1rem 1rem;
+  border: none;
+  color: gray;
+  display: inline;
+  font-size: 1rem;
+}
+
+hr {
+  color: #6b7280;
+}
+
+ul {
+  margin: 2rem 0rem;
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.listItem {
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  margin: 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.quote {
+  font-style: italic;
+  padding: 1rem;
+}
+
+a {
+  margin: 1rem;
+  padding: 0.7rem 1rem;
+  color: white;
+  border: solid 1px var(--primary-color);
+  border-radius: 10%;
+  background-color: var(--primary-color);
+  text-decoration: none;
+}
+
+.problemDesc {
+  padding: 0rem 0rem 0rem 1rem;
+  font-size: large;
+}
+.problemDate {
+  padding: 0rem 0rem 2rem 1rem;
+  display: block;
+}
