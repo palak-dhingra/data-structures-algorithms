@@ -168,5 +168,14 @@ export const code = [
     date: "Day 4 | Q3",
     type: "hashing",
     problem: "https://leetcode.com/problems/longest-consecutive-sequence/"
-  }
+  },
+  {
+    question: "Largest subarray with 0 sum",
+    solution:
+      "https://github.com/palak-dhingra/striver_sheet/blob/main/coding_solution/largest_subarray_with_0_sum.cpp",
+    date: "Day 4 | Q4",
+    type: "hashing",
+    problem:
+      "https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1"
+  },
 ];
