@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,500&display=swap");
+.App {
+  font-family: sans-serif;
+  width: 65%;
+  margin: auto;
+}
+:root {
+  --primary-color: #1e40af;
+}
+body {
+  background-color: #efefef;
+  font-family: "Urbanist", sans-serif;
+}
+.header {
+  color: var(--primary-color);
+  font-style: italic;
+}
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  margin: 0rem 1rem 1rem 0rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+button:hover {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+p {
+  padding: 0rem 0rem 0rem 1rem;
+  font-size: large;
+  font-weight: 600;
+}
+small {
+  display: block;
+  padding: 0rem 0rem 2rem 1rem;
+}
+.btn-code {
+  text-decoration: none;
+  margin: 1rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.listItem {
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  margin: 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
+}
