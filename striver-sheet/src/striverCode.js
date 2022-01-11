@@ -165,7 +165,7 @@ export const code = [
     question: "Longest Consecutive Sequence",
     solution:
       "https://github.com/palak-dhingra/striver_sheet/blob/main/coding_solution/longest-consecutive-sequence/",
-    date: "Day 4 | Q2",
+    date: "Day 4 | Q3",
     type: "hashing",
     problem: "https://leetcode.com/problems/longest-consecutive-sequence/"
   }
